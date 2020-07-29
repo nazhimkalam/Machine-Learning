@@ -1,0 +1,71 @@
+_____________________________
+= = = LINEAR REGRESSION = = =
+_____________________________
+
+* Linear Regression is a type of Regression Algorithm.
+
+
+Q) What is Regression?
+
+* Regression analaysis is a form of predictive modelling technique which investigates the relationship between a "dependent"(Y axis) and "independent variable"(X axis).
+
+
+Q) What are the uses of Regression Analysis?
+
+* Determining the strength of the predicators.	 eg:- what is the strength between sales and income, in this case (sales and income are the predicators)
+* Forecasting an effect. 	eg:- Examining the change in one variable when the other one changes
+* Trend Forecasting. 	eg:- Examining the change of a variable in future
+
+
+
+# There are various types of regression but in Machine Learning we will be working on "Linear Regression" and "Logistic Regression".
+
+Q) What are the features of Linear Regression?
+
+* Maps a continuous X to continuous Y.
+* The data is modelled using a "Straight Line".
+* Uses Continuous Variables.
+* The value of the variable is considered as the output.
+* The Accuracy is measured by:   
+	--> Measured of loss.
+	--> R squared.
+	--> Adjusted R squared.
+
+
+Q) Where is Linear Regression used?
+
+* Evaluating Trends and Sales Estimates.
+* Analyzing the Impact of Price Changes.
+* Assessment of risk in financial services and insurance domain.
+
+# we should always reduce the distance (ERROR) between the actual value and the predicted value
+# The line with the least error will be the 'Regression Line'
+
+
+
+Q) How to check the Accuracy of the Regression Line?
+
+--> Using R squared method
+* R-squared value is a statistical measure of how close the data are to the fitted regression line.
+* It is also known as "coefficient of determination" or the "coefficient of multiple determination".
+* In genreal higher R-square value means the regression line is more accurate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
