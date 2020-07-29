@@ -52,6 +52,9 @@ Q) How to check the Accuracy of the Regression Line?
 
 
 
+## Note that we split the data set into 'training set' and 'testing data set', we generally give '80%' or '70%' of our data set as the 'Training data set' and '30%' as the 'testing data set'.
+
+
 
 
 
