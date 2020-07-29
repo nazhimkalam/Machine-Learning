@@ -20,7 +20,7 @@ import seaborn as sns
 #  WE READ SOME INFO FROM THE TABLE (02) _______________________________________________________________________________
 
 #   READING THE DATA FROM THE FILE
-customers = pd.read_csv("Ecommerce Customers")
+customers = pd.read_csv("./Ecommerce Customers")
 
 # 1.) checking the head() of the file : Syntax is .head(x), x refers to the number of rows of the table by default its set to 5
 print(customers.head(6))

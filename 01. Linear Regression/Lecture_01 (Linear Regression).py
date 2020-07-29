@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-USAhousing = pd.read_csv('USA_Housing.csv')  # this is the data file
+USAhousing = pd.read_csv('./USA_Housing.csv')  # this is the data file
 # print(USAhousing.head())                   # this we display the first row set of the data table
 # print(USAhousing.info())                   # gives information about the table
 # print(USAhousing.describe())               # describes the data with new attributes such as mean, count, max, min, std etc...
