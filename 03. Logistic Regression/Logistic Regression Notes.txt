@@ -1,0 +1,60 @@
+_______________________________
+= = = LOGISTIC REGRESSION = = =
+_______________________________
+
+Q) What is Logistic Regression?
+
+* This produces results in a binary format (1 or 0), which is used to predict the outcome of a categorical dependent variable. 
+* Note that the outcome is  discrete/categorical such as:
+	eg:- 0 or 1
+	     Yes or No
+	     True or False
+ 	     High or Low
+
+
+
+
+# Logistic Regression Curve is also known at the Sigmoid Curve (S curve)
+# The Thershold value indicates the probability of winning or losing, in other words meaning that in which category will the value fall into,
+(0 or 1), (Yes or No), (True or False).
+
+
+
+Q) What are the features of Logistic regression?
+
+* Uses Categorical Variables.
+* Solves Classification Problems.
+* S-Curve
+
+
+
+Q) Use cases of Logistic Regression?
+
+* We can predict the Weather using Logistic Regression, but we can predict the temperature using Linear Regression
+	eg:- will it rain or not       <--- Logistic Regression
+	     26 deg, 32 deg, -16 deg   <--- Linear Regression
+
+* Determining illness. 
+	eg:- Sick or not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
