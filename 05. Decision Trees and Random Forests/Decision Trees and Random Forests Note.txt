@@ -1,0 +1,118 @@
+_____________________________________________
+= = = Decision Trees and Random Forests = = =
+_____________________________________________
+
+
+Q) What is classification?
+
+* Classification is the process of dividing the datasets into different categories or groups by adding label.
+
+* It adds the data point to a particular labelled group on the basis of some condition.
+
+
+
+
+Q) Where will we use classification?
+
+* Fraud detection or checking if transactions are genuine or not.
+
+* Classifying emails into spam or not.
+
+* Classfying a fruit based on some properties.
+
+
+
+
+Q) There are a number of types of classification.
+
+------> 1. Decision Tree
+		
+	* A Decision Tree is a graphical representation of all the possible solutions to a decision.
+	* Decisions are based on some conditions.
+	* Decision made can be easily explained.
+
+
+------> 2. Random Tree
+
+	* Builds multiple decisions trees and merges them together.
+	* More accurate and stable prediction.
+	* Random decision forests correct for decision trees' habit of overfitting to their training set.
+	* Trained with the "bagging" method
+
+
+------> 3. Naive Bayes
+
+	* Classification technique based on Bayes' Theorem
+	* Assume that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+
+
+------> 4. KNN 
+
+	* Stores all the available cases and classifies new cases based on a similarity measure.
+	* The "K" is KNN algorithm is the nearest neighbours we wish to take vote from.
+
+
+
+
+
+Q) What is a Decision Tree exactly?
+
+* A decision tree is a graphical representation of all the possible solutions to a decision based on certain conditions.
+
+
+
+
+Q) Decision Tree Terminology:
+	
+	a) Root Node:- It is the starting root and represents the entire sample.
+
+	b) Leaf Node:- Node cannot be further broken down into sub nodes.
+
+	c) Splitting:- Splitting is dividing the root node/ sub node into different parts on the basis of some condition.
+
+	d) Branch/ Sub Tree:- Formed by splitting the tree/node.
+
+	e) Pruning:- Opposite of splitting, basically removing unwanted branches from the tree.
+
+	f) Parent/Child Node:- Root node is the parent node and all the other nodes branched from it is known as child Node.
+
+
+
+
+Q) How does a decision tree decide where to split?
+
+	1). Gini Index:- The measure of impurity (or purity) used in building decision tree in CART is Gini Index.
+	
+	2). Information Gain:- The information gain is the decrease in entropy after a dataset is split on the basis of an attribute. Constructing a decision tree is all about finding attribute that returns the highest information gain.
+
+	3). Reduction in Variance:- Reduction in variance is an algorithm used for continous target variables (regression problems). The split with lower variance is selected as the criteria to split the population.
+
+	4). Chi Square:- It is an algorithm to find out the statistical significance between the difference between sub nodes and parent node.
+
+
+
+Q) What is Entropy?
+
+* Defines randomness in the data.
+* Entropy is just a metric which measures the impurity.
+* High the Entropy means higher randomness.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
