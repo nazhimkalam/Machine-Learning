@@ -1,0 +1,86 @@
+_________________________________________________________
+= = = Cross Validation and Bias-Variance Trade-Off = = =
+_________________________________________________________
+
+Q) What is Irreducible Error?
+
+* It is the error which cannot be reduced by creating good models. 
+* It is a measure of the amount of noise in our data.
+
+
+
+Q) What is Reducible Error?
+
+* Errors which can be reduced, by reducing the gap between the estimated value and the actual value.
+
+
+
+# Since we can't reduce the Irreducible Error, we are only left with the Reducible Error which can be altered to reduce.
+# Reducible error has 2 components 'Bias' and 'Variance'.
+
+
+
+
+Q) What is Under-Fitting?
+
+* Underfitting refers to a model that can neither model the training data nor generalize to new data.
+
+
+
+
+Q) What is Over-Fitting?
+
+* Overfitting refers to a model that models the training data too well
+* This occurs when the algorithm captures the noise of the data.
+* This occurs when the model or the algorithm fits the data too well.
+
+
+
+Q) What is Bias?
+
+* It is basically how far we have 'predicted the value' from the 'actual value'.
+* We say the Bias is too high if the average prediction is far off from the 'Actual Value'.
+* Higher bias causes 'Under Fitting' which is not good.
+* Lower the Bias, the better the modal would be.
+
+
+
+Q) What is Variance?
+
+* It tells how scattered the predicted values are from the actual values.
+* A higher variance means that the model has been trained with a lot of noise and irrelevant data.
+* Higher variance causes 'Over Fitting' in the model, so it makes strong predictions for new data points.
+* Lower the Variance, the better the modal would be.
+
+
+
+Q) So what is better 'UNDER FITTING' or 'OVER FITTING'?
+
+* Both Under-fitting and Over-fitting can lead to poor performance.
+* This means we should not get our model to fit under either 'UNDER FITTING' nor 'OVER FITTING'.
+
+
+
+# LOW VARIANCE AND LOW BIAS is where the modal is Accurate and Consistant, So we always target for lower Bias and lower Variance.
+
+
+
+Q) What is Bias Variance Trade Off?
+
+* Higher the Bias compared to Variance leads to Underfitting.
+* Higher the Variance compared to Bias leads to Overfitting.
+* we should always target to low bias and low variance in any model of machine learning.
+
+
+
+# An optimal balance between the Bias and Variance, in terms of algorithm complexity, will ensure that the model is never overfitted or underfitted at all.
+
+
+
+
+
+
+
+
+
+
