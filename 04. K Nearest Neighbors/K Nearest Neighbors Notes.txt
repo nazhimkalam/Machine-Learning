@@ -1,0 +1,73 @@
+_______________________________
+= = = K Nearest Neighbors = = =
+_______________________________
+
+Q) What is KNN Algorithm?
+
+* K Nearest Neighbour, is a simple alogrithm that stores all the available cases and classifies the new data or case based on a similarity measure.
+* "IF YOU ARE SIMILAR TO YOUR NEIGHBOUR THEN YOU ARE ONE OF THEM"
+	
+
+
+Q) What is the "K" in KKN Alogrithm?
+
+* K = "Number of Nearest Neighbour"
+* It checks the closed K number of data points and classifies that particular data point.
+
+
+
+Q) What are the industrial purposes of KNN alogrithm?
+
+* Recommender System. (movie recommeder system, amazon shopping recommender system).
+* Concept Search (Classifying Documents)
+
+
+
+Q) How does a KNN Alogrithm work?
+
+* The KNN alogrithm entirely depends the value of K.
+* It checks the K number of data points which is close to the new data point.
+* The new data point falls into the category where the most data points are found in that particular range of K.
+* When the value of K changes then the category of the new data point may also change dependently.
+
+
+
+Q) How to choose the value of K in KNN algorithm?
+
+* Use cross-validation technique to test serveral values of K, in order to determine which works best for your data.
+
+
+
+Q) How things are predicted using KNN Algorithm?
+
+* Calculating the Euclidean Distance.
+* Calculating the Manhattan Distance.
+
+
+# Now if we have a new DATA to be classified to we can calculate the Euclidean Distance and Manhattan Distance and use the number of K and solve.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
