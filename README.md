@@ -11,5 +11,4 @@
 ## - Recommender System
 ## - Natural Language Processing
 ## - Big Data and Spark with python
-## - Neural Nets and Deep Learning 
-## - Tensor Flow
+## - Neural Nets and Deep Learning, Tensor Flow 

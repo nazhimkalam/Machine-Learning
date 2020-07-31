@@ -1,0 +1,47 @@
+_____________________________________
+==== Natural Language Processing ====
+_____________________________________
+
+Q) What is Text-Mining?
+
+* Text Mining is the process of deriving meaningful information from natural language text.
+
+
+
+Q) What is the main goal?
+
+* The overall goal is, essentially to turn text into data for analysis, via application of Natural Language Processing (NLP).
+
+
+
+Q) What is NLP?
+
+* Natural Language Processing is a part of computer science and artificial intelligence which deals with human languages.
+
+
+
+Q) What are the applications of NLP?
+
+* Senitimental Analysis
+* Speech Recognition
+* Chatbot
+* Machine Translation
+* Spell checking
+* Keyword Search
+* Information Extraction
+* Advertisement Matching
+
+
+
+Q) What are the 2 types of NLP components?
+
+	1. Natural Language Understanding 
+		
+		* Mapping input to useful representations.
+		* Analying different aspects of the language
+
+	2. Natural Language Generation
+
+		* Text Planning
+		* Sentence Planning
+		* Text Realization
