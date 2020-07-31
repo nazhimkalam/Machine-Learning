@@ -12,3 +12,4 @@
 ## - Natural Language Processing
 ## - Big Data and Spark with python
 ## - Neural Nets and Deep Learning 
+## - Tensor Flow

@@ -1,0 +1,78 @@
+___________________________________
+= = = Support Vector Machines = = =
+___________________________________
+
+Q) What is Machine Learning?
+
+* Machine Learning is a subset of artificial intelligence (AI) which provides machines the ability to learn automatically & imporve from experience without being explicitly programmed.
+
+* What basically happens is that we teach the machine to learn with some given set of data, therefore it can predict the value for the new data point.
+
+
+
+Q) What are the TYPES of Machine Learning?
+
+	1. Supervised Learning:- Teaching the machine to learn with guidance.
+
+	2. Unsupervised Learning:- The machine learns different paths without guidance to find a proper solution.
+
+	3. Reinforcement Learning:- It is the learning method where the machine interacts with the environment by producing actions and discovering errors.
+
+
+
+Q) What is SVM (Support Vector Machine)?
+
+* SVM is a supervised classification method that separates data using hyperplanes.
+
+
+
+Q) What is a Hyper-Plane?
+
+* Hyper Plane is a straight-line which seperates the 2 class.
+
+
+## we always choose a HYPER PLANE that maximizes the margin between classes.
+
+
+Q) How does SVM work?
+
+* SVM classifies the data using a HYPER-PLANE.
+* Support Vectors are the data point from each class which is closest to the Hyper-Plane.
+* The distance between the support vectors and the Hyper plane is Maximum, in other words the margin (distance between the support vectors and the Hyper plane) has to be maximum
+
+* The MAIN RULE is to create the HYPER-PLANE which has the greatest margin between the support vectors.
+
+
+
+Q) What is a Non-Linear SVM?
+
+* Non-linear SVM is used when the data can't be separated using a straight line. For this we view the data in a 3-D model structure and seperate the data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

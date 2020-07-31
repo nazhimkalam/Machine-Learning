@@ -1,0 +1,89 @@
+______________________________
+= = = K Means Clustering = = =
+______________________________
+
+
+Q) What is Clustering?
+
+* Clustering is the process of dividing the datasets into groups, consisting of similar data-points.
+
+* Points in the same group are as similar as possible.
+
+* Points in different group are as dissimilar as possible.
+
+	eg:- 	-> Group of diners in a restaurant.
+		   Diners in the same table are similar
+		   Diners from one table to another are not similar
+
+		-> Items arranged in a mall.
+		   You won't find fruits in vegetables section and vice versa.
+
+
+
+Q) Where is clustering used?
+
+* Amazon recommendation system
+* NetFlix recommendation system
+
+
+
+Q) How business use Clustering?
+
+* Retail Store
+* Banking
+* Insurance Companies
+
+
+
+Q) What are the types of Clustering?
+
+	1. Exclusive Clustering:-
+
+		* Hard Clustering
+		* Data points/Items belong exclusively to one cluster
+			eg:- K-Means Clustering
+ 
+
+	2. Overlapping Clustering:-
+
+		* Soft Clustering
+		* Data points/Items belong to multiple cluster
+			eg:- C-Means Clustering
+
+
+	3. Hierarchical Clustering.
+
+
+
+Q) What is K-Means Clustering?
+
+* K-Means is a clustering algorithm whose main goal is to group similar elements or data points into a cluster.
+
+* The "K" in the K-Means represents the number of clusters.
+
+
+
+## According to the K-Means Algorithm it iterates over again and again unless and until the data points within each cluster stops changing.
+
+## The overall goal is to divide data into distinct groups such that obervations within each group are similar.
+
+## Choose a number of clusters "K"
+## Randomly assign each point to a cluster
+## Until cluster stop changing, repeat the following:
+##	For each cluster, compute the cluster centroid by taking the mean vector points in the cluster.
+##	Assign each data point to the cluster for which the centroid is the closest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
