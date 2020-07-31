@@ -1,0 +1,49 @@
+________________________________________
+= = = Principal Component Analysis = = =
+________________________________________
+
+Q) What is the need for Principal Component Analysis (PCA)?
+
+* High dimension data is extremely complex to process due to inconsistencies in the feature which increase the computation time and make data processing and EDA more complex. So this is where PCA comes into play.
+
+
+
+Q) What is Principal Component Analysis (PCA)?
+
+* It is a dimensionality reduction technique that enables you to identify correlations and patterns in a data set so that it can be transformed into a data set of significantly lower dimension without loss of any important information.
+
+* In simple terms, converting the Original data into a New data space with lesser features that will still retain most of the information.
+
+
+
+Q) What are the steps followed by PCA, in detail:-
+
+	1). Standardization of the data.
+
+	   * Standardization is all about scaling your data in such a way that all the variables and their values lie within a similar range.
+
+
+
+	2). Computing the covariance matrix.
+
+	   * A covariance matrix expresses the correlation between the different variables in the data set. It is essential to identify heavily dependent variables because they contain biased and redundant information which reduces the overall performance of the model.
+
+
+
+	3). Calculating the eigenvectors and eigenvalues.
+
+	   * Eigenvectors and Eigenvalues are the mathematical constructs that must be computed from the covarience matrix in order to determine the principal components of the data set.
+
+
+
+	4). Computing the Principal Components.
+
+	   * Once we have computed the Eigenvectors and Eigenvalues, all we have to do is order them in the descending order, where the eigenvector with the highest eigenvalue is the most significant and thus forms the first principal component.
+
+
+
+	5). Reducing the dimensions of the data.
+
+	   * The last step in performing PCA is to re-arrange the original data with the final principal components which represents the maximum and the most significant information of the data set.
+
+
